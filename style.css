@@ -84,7 +84,8 @@ section {
 }
 
 ul {
-	padding: 20px;
+	list-style: none;
+	padding: 15px;
 }
 
 li {
@@ -97,3 +98,17 @@ li {
 	margin-right: 10px;
 
 }
+
+.check {
+	color: green;
+	margin-right: 8px;
+	border-color: green;
+}
+
+.cross {
+	color: red;
+	margin-right: 8px;
+	border-color: green;
+}
+
+✘
