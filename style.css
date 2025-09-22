@@ -1,4 +1,4 @@
-/* regole generali */
+/* generals */
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -6,10 +6,13 @@
 	font-family: Helvetica, sans-serif;
 }
 
+
+/* full page background */
 body {
 	background-color: #F6F8FA;
 }
 
+/* header section */
 .header-bg {
 	height: 100px;
 	background-color: rgb(255, 255, 255);
@@ -34,12 +37,16 @@ body {
 	background-color: transparent;
 }
 
+/* main container */
 .container {
-	width: 800px;
+	width: 900px;
 	margin: 0 auto;
-	background-color: white
+	background-color: white;
+	border-radius: 8px;
+	padding: 20px 50px;
 }
 
+/* button 1 style */
 #button1 {
 	height: 30px;
 	width: 80px;
@@ -48,8 +55,10 @@ body {
 	border-radius: 5px;
 	color: white;
 	border-color: transparent;
+	margin-bottom: 10px;
 }
 
+/* button 2 style */
 #button2 {
 	height: 30px;
 	width: 100px;
@@ -58,4 +67,33 @@ body {
 	border-radius: 5px;
 	color: rgb(177, 177, 177);
 	border-color: rgb(232, 232, 232);
+	margin-bottom: 10px;
+}
+
+/* divider */
+#fake-hr {
+	height: 3px;
+	width: 800px;
+	background-color: #F6F8FA;
+	margin-bottom: 30px;
+}
+
+/* text list allign & color correction */
+section {
+	color: #3d3d3d;
+}
+
+ul {
+	padding: 20px;
+}
+
+li {
+	padding: 8px;
+}
+
+/* menu arrow */
+.arrow {
+	height: 12px;
+	margin-right: 10px;
+
 }
